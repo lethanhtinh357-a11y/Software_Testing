@@ -1,0 +1,9 @@
+<suite name="Lab7 Suite" parallel="methods" thread-count="2">
+
+    <test name="Login Test">
+        <classes>
+            <class name="dtm.tests.TC_DangNhapTest"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,11 @@
+<suite name="CartSuite">
+
+    <test name="CartTests">
+
+        <classes>
+            <class name="dtm.tests.TC_GioHangTest"/>
+        </classes>
+
+    </test>
+
+</suite>

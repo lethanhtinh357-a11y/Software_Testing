@@ -1,0 +1,8 @@
+C:\Users\Admin\source\repos\Lab07\Lab07\bin\Debug\Lab07.exe.config
+C:\Users\Admin\source\repos\Lab07\Lab07\bin\Debug\Lab07.exe
+C:\Users\Admin\source\repos\Lab07\Lab07\bin\Debug\Lab07.pdb
+C:\Users\Admin\source\repos\Lab07\Lab07\obj\Debug\Lab07.Properties.Resources.resources
+C:\Users\Admin\source\repos\Lab07\Lab07\obj\Debug\Lab07.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Lab07\Lab07\obj\Debug\Lab07.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Lab07\Lab07\obj\Debug\Lab07.exe
+C:\Users\Admin\source\repos\Lab07\Lab07\obj\Debug\Lab07.pdb
