@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-10T17:29:00 GMT+07:00" name="Default suite" finished-at="2026-03-10T17:29:01 GMT+07:00" duration-ms="53">
+    <groups>
+    </groups>
+    <test started-at="2026-03-10T17:29:00 GMT+07:00" name="Default test" finished-at="2026-03-10T17:29:01 GMT+07:00" duration-ms="53">
+      <class name="lab82.VayVonMCDCTest">
+        <test-method signature="testAllTrue()[pri:0, instance:lab82.VayVonMCDCTest@4d1c00d0]" started-at="2026-03-10T17:29:00 GMT+07:00" name="testAllTrue" description="TC01 - Tất cả điều kiện đều đúng" finished-at="2026-03-10T17:29:01 GMT+07:00" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllTrue -->
+        <test-method signature="testCollateralCase()[pri:0, instance:lab82.VayVonMCDCTest@4d1c00d0]" started-at="2026-03-10T17:29:01 GMT+07:00" name="testCollateralCase" description="TC04 - Không đủ điểm tín dụng nhưng có tài sản" finished-at="2026-03-10T17:29:01 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollateralCase -->
+        <test-method signature="testCreditScoreFail()[pri:0, instance:lab82.VayVonMCDCTest@4d1c00d0]" started-at="2026-03-10T17:29:01 GMT+07:00" name="testCreditScoreFail" description="TC05 - Không tài sản và điểm tín dụng thấp" finished-at="2026-03-10T17:29:01 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreditScoreFail -->
+        <test-method signature="testInvalidAge()[pri:0, instance:lab82.VayVonMCDCTest@4d1c00d0]" started-at="2026-03-10T17:29:01 GMT+07:00" name="testInvalidAge" description="TC02 - Tuổi &lt; 22" finished-at="2026-03-10T17:29:01 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidAge -->
+        <test-method signature="testLowIncome()[pri:0, instance:lab82.VayVonMCDCTest@4d1c00d0]" started-at="2026-03-10T17:29:01 GMT+07:00" name="testLowIncome" description="TC03 - Thu nhập &lt; 10 triệu" finished-at="2026-03-10T17:29:01 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLowIncome -->
+      </class> <!-- lab82.VayVonMCDCTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

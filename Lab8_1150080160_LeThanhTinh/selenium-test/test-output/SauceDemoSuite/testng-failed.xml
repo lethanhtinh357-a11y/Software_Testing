@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SauceDemoSuite]" verbose="2">
+  <test thread-count="5" name="SmokeTests(failed)" verbose="2">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="lab8.CheckoutTest">
+        <methods>
+          <include name="testCheckoutButton"/>
+        </methods>
+      </class> <!-- lab8.CheckoutTest -->
+      <class name="lab8.CartTest">
+        <methods>
+          <include name="testAddToCart"/>
+        </methods>
+      </class> <!-- lab8.CartTest -->
+      <class name="lab8.LoginTest">
+        <methods>
+          <include name="testLoginSuccess"/>
+        </methods>
+      </class> <!-- lab8.LoginTest -->
+    </classes>
+  </test> <!-- SmokeTests(failed) -->
+</suite> <!-- Failed suite [SauceDemoSuite] -->

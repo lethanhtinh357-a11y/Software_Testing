@@ -1,0 +1,17 @@
+
+<suite name="SauceDemoSuite" verbose="2">
+
+    <test name="SmokeTests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="lab8.LoginTest"/>
+            <class name="lab8.CartTest"/>
+            <class name="lab8.CheckoutTest"/>
+        </classes>
+    </test>
+
+</suite>
