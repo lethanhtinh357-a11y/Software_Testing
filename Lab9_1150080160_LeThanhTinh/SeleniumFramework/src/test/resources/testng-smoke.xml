@@ -1,0 +1,18 @@
+<suite name="Smoke Suite">
+
+    <listeners>
+        <listener class-name="framework.utils.RetryListener"/>
+    </listeners>
+
+    <test name="Smoke Test">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.SmokeTest"/>
+        </classes>
+    </test>
+
+</suite>

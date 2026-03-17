@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Full_Test_Suite" class="navigator-link">
+              <span class="suite-name border-skipped">Full Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Full_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\Admin\eclipse-workspace\SeleniumFramework\src\test\resources\testng-regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Full_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Full_Test_Suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Full_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Full_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Full_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Full_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods,  2 skipped,  30 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Full_Test_Suite" class="hide-methods skipped suite-Full_Test_Suite"> (hide)</a> <!-- hide-methods skipped suite-Full_Test_Suite -->
+                      <a href="#" panel-name="suite-Full_Test_Suite" class="show-methods skipped suite-Full_Test_Suite"> (show)</a> <!-- show-methods skipped suite-Full_Test_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Full_Test_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.FlakySimulationTest" class="method navigator-link" hash-for-method="testFlakyScenario">testFlakyScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.FlakySimulationTest" class="method navigator-link" hash-for-method="testFlakyScenario">testFlakyScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Full_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Full_Test_Suite" class="hide-methods passed suite-Full_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Full_Test_Suite -->
+                      <a href="#" panel-name="suite-Full_Test_Suite" class="show-methods passed suite-Full_Test_Suite"> (show)</a> <!-- show-methods passed suite-Full_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Full_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.CartTest" class="method navigator-link" hash-for-method="addItemToCart">addItemToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.CartTest" class="method navigator-link" hash-for-method="emptyCart">emptyCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="loginErrorMessage">loginErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="loginFail">loginFail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginDDTTest" class="method navigator-link" hash-for-method="loginRegressionTest({description=User không tồn tại, password=123456, username=invalid_user, expected_error=Username and...)">loginRegressionTest({description=User không tồn tại, password=123456, username=invalid_user, expected_error=Username and...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginDDTTest" class="method navigator-link" hash-for-method="loginRegressionTest({description=, password=, expected_url=, username=})">loginRegressionTest({description=, password=, expected_url=, username=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginDDTTest" class="method navigator-link" hash-for-method="loginRegressionTest({description=User không tồn tại, password=123456, username=invalid_user, expected_error=Username and...)">loginRegressionTest({description=User không tồn tại, password=123456, username=invalid_user, expected_error=Username and...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginDDTTest" class="method navigator-link" hash-for-method="loginRegressionTest({description=Sai mật khẩu, password=wrong_pass, username=standard_user, expected_error=Username and ...)">loginRegressionTest({description=Sai mật khẩu, password=wrong_pass, username=standard_user, expected_error=Username and ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginDDTTest" class="method navigator-link" hash-for-method="loginRegressionTest({description=Bỏ trống password, password=, username=standard_user, expected_error=Password is requir...)">loginRegressionTest({description=Bỏ trống password, password=, username=standard_user, expected_error=Password is requir...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginDDTTest" class="method navigator-link" hash-for-method="loginRegressionTest({description=Login thành công chuẩn 2, password=secret_sauce, expected_url=inventory.html, username=...)">loginRegressionTest({description=Login thành công chuẩn 2, password=secret_sauce, expected_url=inventory.html, username=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginDDTTest" class="method navigator-link" hash-for-method="loginRegressionTest({description=Bỏ trống username, password=secret_sauce, username=, expected_error=Username is require...)">loginRegressionTest({description=Bỏ trống username, password=secret_sauce, username=, expected_error=Username is require...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginDDTTest" class="method navigator-link" hash-for-method="loginRegressionTest({description=Bỏ trống password, password=, username=standard_user, expected_error=Password is requir...)">loginRegressionTest({description=Bỏ trống password, password=, username=standard_user, expected_error=Password is requir...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginDDTTest" class="method navigator-link" hash-for-method="loginRegressionTest({description=Tài khoản bị khóa, password=secret_sauce, username=locked_out_user, expected_error=lock...)">loginRegressionTest({description=Tài khoản bị khóa, password=secret_sauce, username=locked_out_user, expected_error=lock...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginDDTTest" class="method navigator-link" hash-for-method="loginRegressionTest({description=Tài khoản bị khóa, password=secret_sauce, username=locked_out_user, expected_error=lock...)">loginRegressionTest({description=Tài khoản bị khóa, password=secret_sauce, username=locked_out_user, expected_error=lock...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginDDTTest" class="method navigator-link" hash-for-method="loginRegressionTest({description=Login thành công chuẩn 1, password=secret_sauce, expected_url=inventory.html, username=...)">loginRegressionTest({description=Login thành công chuẩn 1, password=secret_sauce, expected_url=inventory.html, username=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginDDTTest" class="method navigator-link" hash-for-method="loginRegressionTest({description=Bỏ trống username, password=secret_sauce, username=, expected_error=Username is require...)">loginRegressionTest({description=Bỏ trống username, password=secret_sauce, username=, expected_error=Username is require...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginDDTTest" class="method navigator-link" hash-for-method="loginRegressionTest({description=Sai mật khẩu, password=wrong_pass, username=standard_user, expected_error=Username and ...)">loginRegressionTest({description=Sai mật khẩu, password=wrong_pass, username=standard_user, expected_error=Username and ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginDDTTest" class="method navigator-link" hash-for-method="loginRegressionTest({description=Login thành công chậm, password=secret_sauce, expected_url=inventory.html, username=per...)">loginRegressionTest({description=Login thành công chậm, password=secret_sauce, expected_url=inventory.html, username=per...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginDDTTest" class="method navigator-link" hash-for-method="loginSmokeTest({description=Login thành công chuẩn 1, password=secret_sauce, expected_url=inventory.html, username=...)">loginSmokeTest({description=Login thành công chuẩn 1, password=secret_sauce, expected_url=inventory.html, username=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginDDTTest" class="method navigator-link" hash-for-method="loginSmokeTest({description=Login thành công chậm, password=secret_sauce, expected_url=inventory.html, username=per...)">loginSmokeTest({description=Login thành công chậm, password=secret_sauce, expected_url=inventory.html, username=per...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginDDTTest" class="method navigator-link" hash-for-method="loginSmokeTest({description=Login thành công chuẩn 2, password=secret_sauce, expected_url=inventory.html, username=...)">loginSmokeTest({description=Login thành công chuẩn 2, password=secret_sauce, expected_url=inventory.html, username=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginDDTTest" class="method navigator-link" hash-for-method="loginSmokeTest({description=, password=, expected_url=, username=})">loginSmokeTest({description=, password=, expected_url=, username=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.LoginTest" class="method navigator-link" hash-for-method="loginSuccess">loginSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.UserLoginTest" class="method navigator-link" hash-for-method="loginWithJson(framework.model.UserData@682270ff)">loginWithJson(framework.model.UserData@682270ff)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.UserLoginTest" class="method navigator-link" hash-for-method="loginWithJson(framework.model.UserData@4c678a1f)">loginWithJson(framework.model.UserData@4c678a1f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.UserLoginTest" class="method navigator-link" hash-for-method="loginWithJson(framework.model.UserData@3f31892e)">loginWithJson(framework.model.UserData@3f31892e)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.UserLoginTest" class="method navigator-link" hash-for-method="loginWithJson(framework.model.UserData@32eac39b)">loginWithJson(framework.model.UserData@32eac39b)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.UserLoginTest" class="method navigator-link" hash-for-method="loginWithJson(framework.model.UserData@21ebf9be)">loginWithJson(framework.model.UserData@21ebf9be)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.CartTest" class="method navigator-link" hash-for-method="removeItem">removeItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Full_Test_Suite" title="tests.FlakySimulationTest" class="method navigator-link" hash-for-method="testFlakyScenario">testFlakyScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Full_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Full_Test_Suite" class="panel Full_Test_Suite">
+          <div class="suite-Full_Test_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.FlakySimulationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFlakyScenario">
+                  </a> <!-- testFlakyScenario -->
+                  <span class="method-name">testFlakyScenario</span>
+                  <div class="stack-trace">java.lang.AssertionError: Mô phỏng lỗi mạng tạm thời — lần 2
+	at tests.FlakySimulationTest.testFlakyScenario(FlakySimulationTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test mô phỏng flaky — fail 2 lần đầu, pass lần thứ 3)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFlakyScenario">
+                  </a> <!-- testFlakyScenario -->
+                  <span class="method-name">testFlakyScenario</span>
+                  <div class="stack-trace">java.lang.AssertionError: Mô phỏng lỗi mạng tạm thời — lần 1
+	at tests.FlakySimulationTest.testFlakyScenario(FlakySimulationTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test mô phỏng flaky — fail 2 lần đầu, pass lần thứ 3)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Full_Test_Suite-class-skipped -->
+          <div class="suite-Full_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UserLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithJson(framework.model.UserData@682270ff)">
+                  </a> <!-- loginWithJson(framework.model.UserData@682270ff) -->
+                  <span class="method-name">loginWithJson</span>
+                  <span class="parameters">(framework.model.UserData@682270ff)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithJson(framework.model.UserData@4c678a1f)">
+                  </a> <!-- loginWithJson(framework.model.UserData@4c678a1f) -->
+                  <span class="method-name">loginWithJson</span>
+                  <span class="parameters">(framework.model.UserData@4c678a1f)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithJson(framework.model.UserData@3f31892e)">
+                  </a> <!-- loginWithJson(framework.model.UserData@3f31892e) -->
+                  <span class="method-name">loginWithJson</span>
+                  <span class="parameters">(framework.model.UserData@3f31892e)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithJson(framework.model.UserData@32eac39b)">
+                  </a> <!-- loginWithJson(framework.model.UserData@32eac39b) -->
+                  <span class="method-name">loginWithJson</span>
+                  <span class="parameters">(framework.model.UserData@32eac39b)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithJson(framework.model.UserData@21ebf9be)">
+                  </a> <!-- loginWithJson(framework.model.UserData@21ebf9be) -->
+                  <span class="method-name">loginWithJson</span>
+                  <span class="parameters">(framework.model.UserData@21ebf9be)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Full_Test_Suite-class-passed -->
+          <div class="suite-Full_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItemToCart">
+                  </a> <!-- addItemToCart -->
+                  <span class="method-name">addItemToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyCart">
+                  </a> <!-- emptyCart -->
+                  <span class="method-name">emptyCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItem">
+                  </a> <!-- removeItem -->
+                  <span class="method-name">removeItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Full_Test_Suite-class-passed -->
+          <div class="suite-Full_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginDDTTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginRegressionTest({description=User không tồn tại, password=123456, username=invalid_user, expected_error=Username and...)">
+                  </a> <!-- loginRegressionTest({description=User không tồn tại, password=123456, username=invalid_user, expected_error=Username and...) -->
+                  <span class="method-name">loginRegressionTest</span>
+                  <span class="parameters">({description=User không tồn tại, password=123456, username=invalid_user, expected_error=Username and password})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginRegressionTest({description=, password=, expected_url=, username=})">
+                  </a> <!-- loginRegressionTest({description=, password=, expected_url=, username=}) -->
+                  <span class="method-name">loginRegressionTest</span>
+                  <span class="parameters">({description=, password=, expected_url=, username=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginRegressionTest({description=User không tồn tại, password=123456, username=invalid_user, expected_error=Username and...)">
+                  </a> <!-- loginRegressionTest({description=User không tồn tại, password=123456, username=invalid_user, expected_error=Username and...) -->
+                  <span class="method-name">loginRegressionTest</span>
+                  <span class="parameters">({description=User không tồn tại, password=123456, username=invalid_user, expected_error=Username and password})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginRegressionTest({description=Sai mật khẩu, password=wrong_pass, username=standard_user, expected_error=Username and ...)">
+                  </a> <!-- loginRegressionTest({description=Sai mật khẩu, password=wrong_pass, username=standard_user, expected_error=Username and ...) -->
+                  <span class="method-name">loginRegressionTest</span>
+                  <span class="parameters">({description=Sai mật khẩu, password=wrong_pass, username=standard_user, expected_error=Username and password})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginRegressionTest({description=Bỏ trống password, password=, username=standard_user, expected_error=Password is requir...)">
+                  </a> <!-- loginRegressionTest({description=Bỏ trống password, password=, username=standard_user, expected_error=Password is requir...) -->
+                  <span class="method-name">loginRegressionTest</span>
+                  <span class="parameters">({description=Bỏ trống password, password=, username=standard_user, expected_error=Password is required})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginRegressionTest({description=Login thành công chuẩn 2, password=secret_sauce, expected_url=inventory.html, username=...)">
+                  </a> <!-- loginRegressionTest({description=Login thành công chuẩn 2, password=secret_sauce, expected_url=inventory.html, username=...) -->
+                  <span class="method-name">loginRegressionTest</span>
+                  <span class="parameters">({description=Login thành công chuẩn 2, password=secret_sauce, expected_url=inventory.html, username=problem_user})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginRegressionTest({description=Bỏ trống username, password=secret_sauce, username=, expected_error=Username is require...)">
+                  </a> <!-- loginRegressionTest({description=Bỏ trống username, password=secret_sauce, username=, expected_error=Username is require...) -->
+                  <span class="method-name">loginRegressionTest</span>
+                  <span class="parameters">({description=Bỏ trống username, password=secret_sauce, username=, expected_error=Username is required})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginRegressionTest({description=Bỏ trống password, password=, username=standard_user, expected_error=Password is requir...)">
+                  </a> <!-- loginRegressionTest({description=Bỏ trống password, password=, username=standard_user, expected_error=Password is requir...) -->
+                  <span class="method-name">loginRegressionTest</span>
+                  <span class="parameters">({description=Bỏ trống password, password=, username=standard_user, expected_error=Password is required})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginRegressionTest({description=Tài khoản bị khóa, password=secret_sauce, username=locked_out_user, expected_error=lock...)">
+                  </a> <!-- loginRegressionTest({description=Tài khoản bị khóa, password=secret_sauce, username=locked_out_user, expected_error=lock...) -->
+                  <span class="method-name">loginRegressionTest</span>
+                  <span class="parameters">({description=Tài khoản bị khóa, password=secret_sauce, username=locked_out_user, expected_error=locked out})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginRegressionTest({description=Tài khoản bị khóa, password=secret_sauce, username=locked_out_user, expected_error=lock...)">
+                  </a> <!-- loginRegressionTest({description=Tài khoản bị khóa, password=secret_sauce, username=locked_out_user, expected_error=lock...) -->
+                  <span class="method-name">loginRegressionTest</span>
+                  <span class="parameters">({description=Tài khoản bị khóa, password=secret_sauce, username=locked_out_user, expected_error=locked out})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginRegressionTest({description=Login thành công chuẩn 1, password=secret_sauce, expected_url=inventory.html, username=...)">
+                  </a> <!-- loginRegressionTest({description=Login thành công chuẩn 1, password=secret_sauce, expected_url=inventory.html, username=...) -->
+                  <span class="method-name">loginRegressionTest</span>
+                  <span class="parameters">({description=Login thành công chuẩn 1, password=secret_sauce, expected_url=inventory.html, username=standard_user})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginRegressionTest({description=Bỏ trống username, password=secret_sauce, username=, expected_error=Username is require...)">
+                  </a> <!-- loginRegressionTest({description=Bỏ trống username, password=secret_sauce, username=, expected_error=Username is require...) -->
+                  <span class="method-name">loginRegressionTest</span>
+                  <span class="parameters">({description=Bỏ trống username, password=secret_sauce, username=, expected_error=Username is required})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginRegressionTest({description=Sai mật khẩu, password=wrong_pass, username=standard_user, expected_error=Username and ...)">
+                  </a> <!-- loginRegressionTest({description=Sai mật khẩu, password=wrong_pass, username=standard_user, expected_error=Username and ...) -->
+                  <span class="method-name">loginRegressionTest</span>
+                  <span class="parameters">({description=Sai mật khẩu, password=wrong_pass, username=standard_user, expected_error=Username and password})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginRegressionTest({description=Login thành công chậm, password=secret_sauce, expected_url=inventory.html, username=per...)">
+                  </a> <!-- loginRegressionTest({description=Login thành công chậm, password=secret_sauce, expected_url=inventory.html, username=per...) -->
+                  <span class="method-name">loginRegressionTest</span>
+                  <span class="parameters">({description=Login thành công chậm, password=secret_sauce, expected_url=inventory.html, username=performance_glitch_user})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSmokeTest({description=Login thành công chuẩn 1, password=secret_sauce, expected_url=inventory.html, username=...)">
+                  </a> <!-- loginSmokeTest({description=Login thành công chuẩn 1, password=secret_sauce, expected_url=inventory.html, username=...) -->
+                  <span class="method-name">loginSmokeTest</span>
+                  <span class="parameters">({description=Login thành công chuẩn 1, password=secret_sauce, expected_url=inventory.html, username=standard_user})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSmokeTest({description=Login thành công chậm, password=secret_sauce, expected_url=inventory.html, username=per...)">
+                  </a> <!-- loginSmokeTest({description=Login thành công chậm, password=secret_sauce, expected_url=inventory.html, username=per...) -->
+                  <span class="method-name">loginSmokeTest</span>
+                  <span class="parameters">({description=Login thành công chậm, password=secret_sauce, expected_url=inventory.html, username=performance_glitch_user})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSmokeTest({description=Login thành công chuẩn 2, password=secret_sauce, expected_url=inventory.html, username=...)">
+                  </a> <!-- loginSmokeTest({description=Login thành công chuẩn 2, password=secret_sauce, expected_url=inventory.html, username=...) -->
+                  <span class="method-name">loginSmokeTest</span>
+                  <span class="parameters">({description=Login thành công chuẩn 2, password=secret_sauce, expected_url=inventory.html, username=problem_user})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSmokeTest({description=, password=, expected_url=, username=})">
+                  </a> <!-- loginSmokeTest({description=, password=, expected_url=, username=}) -->
+                  <span class="method-name">loginSmokeTest</span>
+                  <span class="parameters">({description=, password=, expected_url=, username=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Full_Test_Suite-class-passed -->
+          <div class="suite-Full_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.FlakySimulationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFlakyScenario">
+                  </a> <!-- testFlakyScenario -->
+                  <span class="method-name">testFlakyScenario</span>
+                  <em>
+(Test mô phỏng flaky — fail 2 lần đầu, pass lần thứ 3)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Full_Test_Suite-class-passed -->
+          <div class="suite-Full_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginErrorMessage">
+                  </a> <!-- loginErrorMessage -->
+                  <span class="method-name">loginErrorMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginFail">
+                  </a> <!-- loginFail -->
+                  <span class="method-name">loginFail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSuccess">
+                  </a> <!-- loginSuccess -->
+                  <span class="method-name">loginSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Full_Test_Suite-class-passed -->
+        </div> <!-- panel Full_Test_Suite -->
+        <div panel-name="test-xml-Full_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Admin\eclipse-workspace\SeleniumFramework\src\test\resources\testng-regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Full Test Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;framework.utils.RetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;All Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;tests.CartTest&quot;/&gt;
+      &lt;class name=&quot;tests.LoginDDTTest&quot;/&gt;
+      &lt;class name=&quot;tests.UserLoginTest&quot;/&gt;
+      &lt;class name=&quot;tests.FlakySimulationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- All Tests --&gt;
+&lt;/suite&gt; &lt;!-- Full Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Full_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Full Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">All Tests (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Full_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Full Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginRegressionTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginSmokeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Full_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Full Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Full_Test_Suite');
+function tableData_Full_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'removeItem')
+data.setCell(0, 2, 'tests.CartTest')
+data.setCell(0, 3, 15533);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'emptyCart')
+data.setCell(1, 2, 'tests.CartTest')
+data.setCell(1, 3, 15477);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginRegressionTest')
+data.setCell(2, 2, 'tests.LoginDDTTest')
+data.setCell(2, 3, 5315);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginSmokeTest')
+data.setCell(3, 2, 'tests.LoginDDTTest')
+data.setCell(3, 3, 5274);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginErrorMessage')
+data.setCell(4, 2, 'tests.LoginTest')
+data.setCell(4, 3, 705);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginSuccess')
+data.setCell(5, 2, 'tests.LoginTest')
+data.setCell(5, 3, 467);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addItemToCart')
+data.setCell(6, 2, 'tests.CartTest')
+data.setCell(6, 3, 391);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginRegressionTest')
+data.setCell(7, 2, 'tests.LoginDDTTest')
+data.setCell(7, 3, 369);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginFail')
+data.setCell(8, 2, 'tests.LoginTest')
+data.setCell(8, 3, 354);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginRegressionTest')
+data.setCell(9, 2, 'tests.LoginDDTTest')
+data.setCell(9, 3, 340);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginRegressionTest')
+data.setCell(10, 2, 'tests.LoginDDTTest')
+data.setCell(10, 3, 321);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginRegressionTest')
+data.setCell(11, 2, 'tests.LoginDDTTest')
+data.setCell(11, 3, 310);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loginSmokeTest')
+data.setCell(12, 2, 'tests.LoginDDTTest')
+data.setCell(12, 3, 296);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginWithJson')
+data.setCell(13, 2, 'tests.UserLoginTest')
+data.setCell(13, 3, 293);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginWithJson')
+data.setCell(14, 2, 'tests.UserLoginTest')
+data.setCell(14, 3, 291);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'loginRegressionTest')
+data.setCell(15, 2, 'tests.LoginDDTTest')
+data.setCell(15, 3, 283);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'loginRegressionTest')
+data.setCell(16, 2, 'tests.LoginDDTTest')
+data.setCell(16, 3, 282);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'loginRegressionTest')
+data.setCell(17, 2, 'tests.LoginDDTTest')
+data.setCell(17, 3, 281);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'loginRegressionTest')
+data.setCell(18, 2, 'tests.LoginDDTTest')
+data.setCell(18, 3, 278);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'loginSmokeTest')
+data.setCell(19, 2, 'tests.LoginDDTTest')
+data.setCell(19, 3, 272);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'loginRegressionTest')
+data.setCell(20, 2, 'tests.LoginDDTTest')
+data.setCell(20, 3, 265);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'loginRegressionTest')
+data.setCell(21, 2, 'tests.LoginDDTTest')
+data.setCell(21, 3, 264);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'loginRegressionTest')
+data.setCell(22, 2, 'tests.LoginDDTTest')
+data.setCell(22, 3, 260);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'loginRegressionTest')
+data.setCell(23, 2, 'tests.LoginDDTTest')
+data.setCell(23, 3, 258);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'loginWithJson')
+data.setCell(24, 2, 'tests.UserLoginTest')
+data.setCell(24, 3, 258);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'loginRegressionTest')
+data.setCell(25, 2, 'tests.LoginDDTTest')
+data.setCell(25, 3, 258);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'loginWithJson')
+data.setCell(26, 2, 'tests.UserLoginTest')
+data.setCell(26, 3, 254);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'loginWithJson')
+data.setCell(27, 2, 'tests.UserLoginTest')
+data.setCell(27, 3, 254);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'loginSmokeTest')
+data.setCell(28, 2, 'tests.LoginDDTTest')
+data.setCell(28, 3, 234);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testFlakyScenario')
+data.setCell(29, 2, 'tests.FlakySimulationTest')
+data.setCell(29, 3, 2);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testFlakyScenario')
+data.setCell(30, 2, 'tests.FlakySimulationTest')
+data.setCell(30, 3, 1);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testFlakyScenario')
+data.setCell(31, 2, 'tests.FlakySimulationTest')
+data.setCell(31, 3, 1);
+window.suiteTableData['Full_Test_Suite']= { tableData: data, tableDiv: 'times-div-Full_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 49 seconds</span>
+              <div id="times-div-Full_Test_Suite">
+              </div> <!-- times-div-Full_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Full_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Full Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Full_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Full_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginErrorMessage</span>
+                <span class="method-start">2154 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginErrorMessage status=SUCCESS method=LoginTest.loginErrorMessage()[pri:0, instan...)</span>
+                <span class="method-start">2863 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">3036 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginFail</span>
+                <span class="method-start">4430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginFail status=SUCCESS method=LoginTest.loginFail()[pri:0, instance:tests.LoginTe...)</span>
+                <span class="method-start">4785 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">4901 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginSuccess</span>
+                <span class="method-start">6291 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginSuccess status=SUCCESS method=LoginTest.loginSuccess()[pri:0, instance:tests.L...)</span>
+                <span class="method-start">6760 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">6879 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addItemToCart</span>
+                <span class="method-start">8215 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addItemToCart status=SUCCESS method=CartTest.addItemToCart()[pri:0, instance:tests....)</span>
+                <span class="method-start">8608 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">8730 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptyCart</span>
+                <span class="method-start">9934 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=emptyCart status=SUCCESS method=CartTest.emptyCart()[pri:0, instance:tests.CartTest...)</span>
+                <span class="method-start">25412 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">25579 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeItem</span>
+                <span class="method-start">26931 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=removeItem status=SUCCESS method=CartTest.removeItem()[pri:0, instance:tests.CartTe...)</span>
+                <span class="method-start">42465 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginDDTTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">43305 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginRegressionTest({description=Login thành công chuẩn 1, password=secret_sauce, expected_url=inventory.html, username=...)</span>
+                <span class="method-start">44677 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">45048 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">setTestName([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">45048 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">45171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginRegressionTest({description=Login thành công chuẩn 2, password=secret_sauce, expected_url=inventory.html, username=...)</span>
+                <span class="method-start">46540 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">46823 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">setTestName([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">46823 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">46939 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginRegressionTest({description=Login thành công chậm, password=secret_sauce, expected_url=inventory.html, username=per...)</span>
+                <span class="method-start">48189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setTestName([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">53506 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">53506 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">53631 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginRegressionTest({description=, password=, expected_url=, username=})</span>
+                <span class="method-start">54971 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setTestName([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">55293 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">55294 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">55428 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginRegressionTest({description=Tài khoản bị khóa, password=secret_sauce, username=locked_out_user, expected_error=lock...)</span>
+                <span class="method-start">56675 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">57016 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">setTestName([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">57016 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">57147 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginRegressionTest({description=Sai mật khẩu, password=wrong_pass, username=standard_user, expected_error=Username and ...)</span>
+                <span class="method-start">58402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setTestName([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">58684 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">58684 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">58813 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginRegressionTest({description=User không tồn tại, password=123456, username=invalid_user, expected_error=Username and...)</span>
+                <span class="method-start">60038 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">60317 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">setTestName([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">60317 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">60437 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginRegressionTest({description=Bỏ trống username, password=secret_sauce, username=, expected_error=Username is require...)</span>
+                <span class="method-start">61741 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">62052 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">setTestName([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">62052 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">62168 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginRegressionTest({description=Bỏ trống password, password=, username=standard_user, expected_error=Password is requir...)</span>
+                <span class="method-start">63675 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setTestName([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">63934 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">63935 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">64039 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginRegressionTest({description=Tài khoản bị khóa, password=secret_sauce, username=locked_out_user, expected_error=lock...)</span>
+                <span class="method-start">65328 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">65612 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">setTestName([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">65612 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">65742 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginRegressionTest({description=Sai mật khẩu, password=wrong_pass, username=standard_user, expected_error=Username and ...)</span>
+                <span class="method-start">66943 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setTestName([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">67204 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">67205 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">67320 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginRegressionTest({description=User không tồn tại, password=123456, username=invalid_user, expected_error=Username and...)</span>
+                <span class="method-start">68455 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setTestName([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">68720 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">68721 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">68847 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginRegressionTest({description=Bỏ trống username, password=secret_sauce, username=, expected_error=Username is require...)</span>
+                <span class="method-start">70009 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setTestName([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">70275 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">70275 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">70371 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginRegressionTest({description=Bỏ trống password, password=, username=standard_user, expected_error=Password is requir...)</span>
+                <span class="method-start">71617 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">71876 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">setTestName([TestResult name=loginRegressionTest status=SUCCESS method=LoginDDTTest.loginRegressionTest(java.uti...)</span>
+                <span class="method-start">71876 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">72004 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginSmokeTest({description=Login thành công chuẩn 1, password=secret_sauce, expected_url=inventory.html, username=...)</span>
+                <span class="method-start">73389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setTestName([TestResult name=loginSmokeTest status=SUCCESS method=LoginDDTTest.loginSmokeTest(java.util.Map)[pri...)</span>
+                <span class="method-start">73662 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginSmokeTest status=SUCCESS method=LoginDDTTest.loginSmokeTest(java.util.Map)[pri...)</span>
+                <span class="method-start">73663 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">73758 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginSmokeTest({description=Login thành công chuẩn 2, password=secret_sauce, expected_url=inventory.html, username=...)</span>
+                <span class="method-start">74949 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setTestName([TestResult name=loginSmokeTest status=SUCCESS method=LoginDDTTest.loginSmokeTest(java.util.Map)[pri...)</span>
+                <span class="method-start">75245 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginSmokeTest status=SUCCESS method=LoginDDTTest.loginSmokeTest(java.util.Map)[pri...)</span>
+                <span class="method-start">75246 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">75352 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginSmokeTest({description=Login thành công chậm, password=secret_sauce, expected_url=inventory.html, username=per...)</span>
+                <span class="method-start">76538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setTestName([TestResult name=loginSmokeTest status=SUCCESS method=LoginDDTTest.loginSmokeTest(java.util.Map)[pri...)</span>
+                <span class="method-start">81813 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginSmokeTest status=SUCCESS method=LoginDDTTest.loginSmokeTest(java.util.Map)[pri...)</span>
+                <span class="method-start">81813 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">81930 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginSmokeTest({description=, password=, expected_url=, username=})</span>
+                <span class="method-start">83189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">setTestName([TestResult name=loginSmokeTest status=SUCCESS method=LoginDDTTest.loginSmokeTest(java.util.Map)[pri...)</span>
+                <span class="method-start">83423 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginSmokeTest status=SUCCESS method=LoginDDTTest.loginSmokeTest(java.util.Map)[pri...)</span>
+                <span class="method-start">83424 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UserLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">83739 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithJson(framework.model.UserData@3f31892e)</span>
+                <span class="method-start">85012 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginWithJson status=SUCCESS method=UserLoginTest.loginWithJson(framework.model.Use...)</span>
+                <span class="method-start">85305 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">85427 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithJson(framework.model.UserData@4c678a1f)</span>
+                <span class="method-start">86626 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginWithJson status=SUCCESS method=UserLoginTest.loginWithJson(framework.model.Use...)</span>
+                <span class="method-start">86887 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">86986 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithJson(framework.model.UserData@682270ff)</span>
+                <span class="method-start">88161 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginWithJson status=SUCCESS method=UserLoginTest.loginWithJson(framework.model.Use...)</span>
+                <span class="method-start">88453 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">88556 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithJson(framework.model.UserData@32eac39b)</span>
+                <span class="method-start">89813 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginWithJson status=SUCCESS method=UserLoginTest.loginWithJson(framework.model.Use...)</span>
+                <span class="method-start">90068 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">90175 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithJson(framework.model.UserData@21ebf9be)</span>
+                <span class="method-start">91335 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=loginWithJson status=SUCCESS method=UserLoginTest.loginWithJson(framework.model.Use...)</span>
+                <span class="method-start">91590 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.FlakySimulationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">91695 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFlakyScenario</span>
+                <span class="method-start">108813 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testFlakyScenario status=SKIP method=FlakySimulationTest.testFlakyScenario()[pri:0,...)</span>
+                <span class="method-start">108820 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">108924 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFlakyScenario</span>
+                <span class="method-start">110168 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testFlakyScenario status=SKIP method=FlakySimulationTest.testFlakyScenario()[pri:0,...)</span>
+                <span class="method-start">110171 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, dev)</span>
+                <span class="method-start">110284 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFlakyScenario</span>
+                <span class="method-start">111622 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testFlakyScenario status=SUCCESS method=FlakySimulationTest.testFlakyScenario()[pri...)</span>
+                <span class="method-start">111624 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
