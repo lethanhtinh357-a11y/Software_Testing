@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["id", "name", "username", "email", "address", "phone", "website", "company"],
+  "properties": {
+    "id":       { "type": "integer", "minimum": 1 },
+    "name":     { "type": "string",  "minLength": 1 },
+    "username": { "type": "string",  "minLength": 1 },
+    "email":    { "type": "string",  "format": "email" },
+    "address": {
+      "type": "object",
+      "required": ["street", "suite", "city", "zipcode", "geo"],
+      "properties": {
+        "street":  { "type": "string" },
+        "suite":   { "type": "string" },
+        "city":    { "type": "string" },
+        "zipcode": { "type": "string" },
+        "geo":     { "type": "object" }
+      },
+      "additionalProperties": false
+    },
+    "phone":   { "type": "string" },
+    "website": { "type": "string" },
+    "company": { "type": "object" }
+  },
+  "additionalProperties": false
+}

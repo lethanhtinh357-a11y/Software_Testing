@@ -1,0 +1,11 @@
+
+<suite name="Lab 10 API Testing Suite">
+    <test name="JSONPlaceholder API Tests">
+        <classes>
+            <class name="tests.PostApiTest"/>
+            <class name="tests.CommentApiTest"/>
+            <class name="tests.UserApiTest"/>
+            <class name="tests.HybridTest"/>
+        </classes>
+    </test>
+</suite>

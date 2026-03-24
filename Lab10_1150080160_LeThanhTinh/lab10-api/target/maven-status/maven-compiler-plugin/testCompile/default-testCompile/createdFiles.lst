@@ -1,0 +1,13 @@
+tests\HybridTest.class
+tests\JsonSchemaTest.class
+models\CreateUserRequest.class
+models\UserResponse.class
+tests\UserGetTest.class
+base\BaseTest.class
+tests\UserApiTest.class
+tests\CommentApiTest.class
+tests\UserCrudTest.class
+tests\PostApiTest.class
+base\ApiBaseTest.class
+base\ApiBaseTestReqres.class
+tests\AuthTest.class

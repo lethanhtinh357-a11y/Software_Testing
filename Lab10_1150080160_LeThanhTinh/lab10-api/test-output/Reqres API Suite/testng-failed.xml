@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Reqres API Suite]">
+  <test thread-count="5" name="Auth Tests(failed)">
+    <classes>
+      <class name="tests.AuthTest">
+        <methods>
+          <include name="setup"/>
+          <include name="testLoginMissingEmail"/>
+          <include name="testRegisterMissingPassword"/>
+          <include name="testRegisterSuccess"/>
+          <include name="testLoginMissingPassword"/>
+          <include name="testLoginSuccess"/>
+        </methods>
+      </class> <!-- tests.AuthTest -->
+    </classes>
+  </test> <!-- Auth Tests(failed) -->
+</suite> <!-- Failed suite [Reqres API Suite] -->

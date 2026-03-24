@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-25T01:18:33 GMT+07:00" name="Lab 10 API Testing Suite" finished-at="2026-03-25T01:18:43 GMT+07:00" duration-ms="9593">
+    <groups>
+    </groups>
+    <test started-at="2026-03-25T01:18:33 GMT+07:00" name="JSONPlaceholder API Tests" finished-at="2026-03-25T01:18:43 GMT+07:00" duration-ms="9593">
+      <class name="tests.CommentApiTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CommentApiTest@44c03695]" started-at="2026-03-25T01:18:37 GMT+07:00" name="setup" finished-at="2026-03-25T01:18:37 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetCommentsByPost()[pri:0, instance:tests.CommentApiTest@44c03695]" started-at="2026-03-25T01:18:37 GMT+07:00" name="testGetCommentsByPost" description="GET /posts/1/comments -&gt; 5 comments" finished-at="2026-03-25T01:18:38 GMT+07:00" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCommentsByPost -->
+      </class> <!-- tests.CommentApiTest -->
+      <class name="tests.HybridTest">
+        <test-method is-config="true" signature="apiPrecondition()[pri:0, instance:tests.HybridTest@2f4948e4]" started-at="2026-03-25T01:18:38 GMT+07:00" name="apiPrecondition" finished-at="2026-03-25T01:18:38 GMT+07:00" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiPrecondition -->
+        <test-method signature="testUiLoginAfterApiPass()[pri:1, instance:tests.HybridTest@2f4948e4]" started-at="2026-03-25T01:18:38 GMT+07:00" name="testUiLoginAfterApiPass" description="Phần A: Đăng nhập UI sau khi có Token từ API" finished-at="2026-03-25T01:18:40 GMT+07:00" duration-ms="2018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUiLoginAfterApiPass -->
+        <test-method is-config="true" signature="apiPrecondition()[pri:0, instance:tests.HybridTest@2f4948e4]" started-at="2026-03-25T01:18:40 GMT+07:00" name="apiPrecondition" finished-at="2026-03-25T01:18:40 GMT+07:00" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiPrecondition -->
+        <test-method signature="testFullIntegrationFlow()[pri:2, instance:tests.HybridTest@2f4948e4]" started-at="2026-03-25T01:18:40 GMT+07:00" name="testFullIntegrationFlow" description="Phần B: Luồng tích hợp thêm sản phẩm" finished-at="2026-03-25T01:18:40 GMT+07:00" depends-on-methods="tests.HybridTest.testUiLoginAfterApiPass" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullIntegrationFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HybridTest@2f4948e4]" started-at="2026-03-25T01:18:40 GMT+07:00" name="tearDown" finished-at="2026-03-25T01:18:43 GMT+07:00" duration-ms="2184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HybridTest -->
+      <class name="tests.UserApiTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.UserApiTest@7e6f74c]" started-at="2026-03-25T01:18:38 GMT+07:00" name="setup" finished-at="2026-03-25T01:18:38 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetListUsers()[pri:0, instance:tests.UserApiTest@7e6f74c]" started-at="2026-03-25T01:18:38 GMT+07:00" name="testGetListUsers" description="GET /users -&gt; 10 users" finished-at="2026-03-25T01:18:38 GMT+07:00" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetListUsers -->
+        <test-method signature="testUserAddressSchema()[pri:0, instance:tests.UserApiTest@7e6f74c]" started-at="2026-03-25T01:18:38 GMT+07:00" name="testUserAddressSchema" description="GET /users/1 -&gt; Validate Nested Object Address Schema" finished-at="2026-03-25T01:18:38 GMT+07:00" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserAddressSchema -->
+      </class> <!-- tests.UserApiTest -->
+      <class name="tests.PostApiTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PostApiTest@7586beff]" started-at="2026-03-25T01:18:33 GMT+07:00" name="setup" finished-at="2026-03-25T01:18:33 GMT+07:00" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGetAllPosts()[pri:1, instance:tests.PostApiTest@7586beff]" started-at="2026-03-25T01:18:33 GMT+07:00" name="testGetAllPosts" description="GET /posts - Lấy 100 bài đăng" finished-at="2026-03-25T01:18:35 GMT+07:00" duration-ms="1782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllPosts -->
+        <test-method signature="testGetSinglePost()[pri:2, instance:tests.PostApiTest@7586beff]" started-at="2026-03-25T01:18:35 GMT+07:00" name="testGetSinglePost" description="GET /posts/1 - Lấy bài đăng id=1" finished-at="2026-03-25T01:18:36 GMT+07:00" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSinglePost -->
+        <test-method signature="testCreatePost()[pri:3, instance:tests.PostApiTest@7586beff]" started-at="2026-03-25T01:18:36 GMT+07:00" name="testCreatePost" description="POST /posts - Tạo bài đăng mới" finished-at="2026-03-25T01:18:36 GMT+07:00" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePost -->
+        <test-method signature="testUpdatePost()[pri:4, instance:tests.PostApiTest@7586beff]" started-at="2026-03-25T01:18:36 GMT+07:00" name="testUpdatePost" description="PUT /posts/1 - Cập nhật bài đăng" finished-at="2026-03-25T01:18:37 GMT+07:00" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePost -->
+        <test-method signature="testDeletePost()[pri:5, instance:tests.PostApiTest@7586beff]" started-at="2026-03-25T01:18:37 GMT+07:00" name="testDeletePost" description="DELETE /posts/1 - Xóa bài đăng" finished-at="2026-03-25T01:18:37 GMT+07:00" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePost -->
+      </class> <!-- tests.PostApiTest -->
+    </test> <!-- JSONPlaceholder API Tests -->
+  </suite> <!-- Lab 10 API Testing Suite -->
+</testng-results>
